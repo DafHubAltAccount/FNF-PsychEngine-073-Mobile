@@ -99,7 +99,6 @@ class TitleState extends MusicBeatState
 			FlxG.switchState(new CopyState());
 		#end
 
-		Mods.loadTopMod();
 
 		FlxG.fixedTimestep = false;
 		FlxG.game.focusLostFramerate = 60;
@@ -577,6 +576,9 @@ class TitleState extends MusicBeatState
 				case 4:
 					addMoreText('Shadow Mario', 40);
 					addMoreText('Riveren', 40);
+					addMoreText('MA-Jigsaw', 40);
+					addMoreText('mcagabe19', 40);
+					addMoreText('DaffyToons', 40);
 				case 5:
 					deleteCoolText();
 				case 6:
